@@ -1,4 +1,3 @@
-# Create MyList Class that has an instance variable @list.
 require_relative 'MyEnumerable'
 
 class MyList
@@ -8,7 +7,6 @@ class MyList
   end
 
   def each
-    # yield @list
     @list.each { |value| yield value if block_given? }
   end
 end
