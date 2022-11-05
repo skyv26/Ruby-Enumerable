@@ -1,5 +1,3 @@
-
-
 source 'https://rubygems.org'
 
 # Install RuboCop
